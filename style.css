@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Newsreader:wght@400;500;700&family=Open+Sans&family=Roboto&display=swap');
+body {
+    background-color: rgb(20, 20, 30);
+}
+
+.text {
+    background-color: white;
+    padding: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Newsreader', serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+quote {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    border: none;
+    font-size: 12px;
+    font-style: italic;
+    background-color: rgb(20, 20, 30);
+    color: lightgrey;
+    text-align: center;
+}
+
+footer {
+    border: none;
+    background-color: rgb(20, 20, 30);
+    color: lightgrey;
+    text-align: center;
+}
+
+footer a:visited {
+    color: lightblue;
+}
+
+
+.social_media_links a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    color: lightgrey;
+}
+
+.fa {
+    transition: color 0.5s ease;
+}
+
+.fa:visited {
+    color: lightgrey
+}
+
+.fa-twitter:hover {
+    color: white;
+}
+
+.fa-github:hover {
+    color: white;
+}
+
+.fa-linkedin:hover {
+    color: white;
+}
+
+.section.media  {
+    height: 100% !important;
+    max-height: 245px;
+    object-position: top;
+}
